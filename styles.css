@@ -10765,6 +10765,238 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* Added Component Styles */
+/* ===== MENU SECTION ===== */
+.czl-menu-section {
+  background: #1a1a1a;
+  background-image: radial-gradient(ellipse at top, #2a2a2a 0%, #111111 100%);
+  padding: 60px 20px 80px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* Container */
+.czl-menu-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.czl-menu-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.czl-menu-title {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 4px;
+  background: linear-gradient(180deg, #ffd700 0%, #ff8a1f 60%, #ff6a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 16px 0;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+.czl-menu-divider {
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff8a1f, transparent);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+/* Grid Layout */
+.czl-menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  align-items: start;
+}
+
+/* Category Block */
+.czl-menu-category {
+  margin-bottom: 36px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 138, 31, 0.15);
+  border-radius: 12px;
+  padding: 20px 22px 16px;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.czl-menu-category:hover {
+  background: rgba(255, 138, 31, 0.06);
+  border-color: rgba(255, 138, 31, 0.35);
+}
+
+/* Category Title */
+.czl-cat-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffd700;
+  margin: 0 0 14px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.25);
+  letter-spacing: 0.5px;
+}
+
+/* Category Subtitle */
+.czl-cat-subtitle {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: -8px 0 12px 0;
+  font-style: italic;
+}
+
+/* Sub Section (Toppings) */
+.czl-sub-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.czl-sub-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ff8a1f;
+  margin: 0 0 10px 0;
+}
+
+/* Item List */
+.czl-item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each Item Row */
+.czl-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease;
+}
+
+.czl-item:last-child {
+  border-bottom: none;
+}
+
+.czl-item:hover {
+  background: rgba(255, 138, 31, 0.07);
+  border-radius: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+/* Item Name */
+.czl-item-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.czl-item-name.czl-small {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #cccccc;
+  line-height: 1.5;
+}
+
+/* Item Price */
+.czl-item-price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffd700;
+  white-space: nowrap;
+  min-width: 36px;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+/* Description Row */
+.czl-item-desc {
+  font-size: 0.82rem;
+  color: #aaaaaa;
+  padding: 2px 0 8px 0;
+  line-height: 1.5;
+  display: block;
+  list-style: none;
+}
+
+/* Item with description - reduce bottom padding */
+.czl-item.czl-item-has-desc {
+  border-bottom: none;
+  padding-bottom: 2px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .czl-menu-section {
+    padding: 40px 14px 60px;
+  }
+
+  .czl-menu-title {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+
+  .czl-menu-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .czl-menu-category {
+    padding: 16px 16px 12px;
+    margin-bottom: 20px;
+  }
+
+  .czl-cat-title {
+    font-size: 1.25rem;
+  }
+
+  .czl-item-name {
+    font-size: 0.95rem;
+  }
+
+  .czl-item-price {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .czl-menu-title {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .czl-menu-category {
+    padding: 14px 12px 10px;
+    border-radius: 10px;
+  }
+
+  .czl-item-name {
+    font-size: 0.9rem;
+  }
+
+  .czl-item-price {
+    font-size: 0.9rem;
+  }
+
+  .czl-item-name.czl-small {
+    font-size: 0.78rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
