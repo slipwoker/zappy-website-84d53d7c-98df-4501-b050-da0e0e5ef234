@@ -1,0 +1,51 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### סקירה כללית
+https://example.com
+פיצה צ&#39;יזי לוק בגן יבנה: דירוג 4.8 כוכבים, מחירים שמתחילים מ-1 שקל, משלוח ואיסוף עצמי עד 00:30. הפיצרייה השכונתית שכולם מדברים עליה — הזמינו עכשיו בוואטסאפ!
+
+### תפריט ומחירים
+https://example.com/menu-prices
+גלו את התפריט המלא של פיצה צ&#39;יזי לוק עם מחירים שמתחילים מ-1 שקל בלבד! פיצות טריות, מגוון טעמים ומבצעים שאי אפשר לפספס. הזמינו עכשיו ותיהנו מהמחיר הכי שווה בגן יבנה.
+
+### ביקורות
+https://example.com/reviews
+למה אלפי תושבי גן יבנה בחרו בפיצה צ&#39;יזי לוק? קראו ביקורות אמיתיות מלקוחות מרוצים וגלו מה הופך את הפיצרייה הזו לדירוג 4.8 כוכבים. הצטרפו למשפחה המרוצה שלנו עוד היום!
+
+### תמונות
+https://example.com/photos
+צפו בגלריית התמונות של פיצה צ&#39;יזי לוק וראו בעצמכם למה כולם מתאהבים בפיצה שלנו! גבינה מתמסרת, בצק מושלם ומראה שאי אפשר לעמוד בפניו. הזמינו משלוח לגן יבנה עכשיו!
+
+### מידע כללי ויצירת קשר
+https://example.com/general-info
+רוצים להזמין פיצה בגן יבנה גם בשעות המאוחרות? פיצה צ&#39;יזי לוק פתוחה עד 00:30 עם משלוח ואיסוף עצמי. צרו קשר בוואטסאפ, קבלו את הכתובת ומיקום המסעדה — אנחנו כאן בשבילכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
