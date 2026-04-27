@@ -336,16 +336,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="" aria-label="Call">
+  <button class="phone-header-btn" data-phone aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
   </button>
 
@@ -793,10 +793,10 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="סקירה כללית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section class="index-hero-section" data-layout-spec="סקירה כללית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Background Image -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Dramatic close-up of a steaming hot pizza fresh from the oven at night, with golden melted cheese pulling apart, vibrant toppings, visible steam rising, and soft urban bokeh lights glowing in the dark background. Cinematic, craveable, moody late-night pizzeria atmosphere." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="פיצה חמה עם גבינה נמסה - פיצה צ" יזי="" לוק="" גן="" יבנה'="">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Dramatic close-up of a steaming hot pizza fresh from the oven at night, with golden melted cheese pulling apart, vibrant toppings, visible steam rising, and soft urban bokeh lights glowing in the dark background. Cinematic, craveable, moody late-night pizzeria atmosphere." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="פיצה חמה עם גבינה נמסה - פיצה צ" יזי לוק גן יבנה' data-hero-background="true" data-element-type="image" data-element-id="img-1777311365170-4zpg2wdg9">
   </div>
 
   <!-- Scrim Overlay -->
@@ -807,10 +807,10 @@
     <div class="index-hero-content">
 
       <!-- Label -->
-      <span class="index-hero-label">פיצרייה · גן יבנה</span>
+      <p><span class="index-hero-label">פיצרייה · גן יבנה</span>
 
-      <!-- H1 -->
-      <h1 class="index-hero-h1">הפיצה של<br><span class="index-hero-highlight">הלילה</span><br>מחכה לך</h1>
+      
+      </p><!-- H1 --><h1 class="index-hero-h1" style>הפיצה של<br><span class="index-hero-highlight">הלילה</span><br>מחכה לך שלום שלום</h1>
 
       <!-- H3 Subtitle -->
       <h3 class="index-hero-subtitle">צ'יזי לוק — פיצרייה שכונתית עם דירוג 4.8 ⭐<br>איסוף עצמי ומשלוחים · מחירים החל מ-1 ₪</h3>
@@ -818,7 +818,7 @@
       <!-- Utility info bar -->
       <div class="index-hero-meta">
         <span class="index-hero-meta-item">
-          <i class="fa-solid fa-star"></i> 4.8 (44 ביקורות)
+          <i class="fa-solid fa-star" data-element-type="icon" data-element-id="icon-1777311365169-l4lw7ahd9" data-icon-type="fontawesome"></i> 4.8 (44 ביקורות)
         </span>
         <span class="index-hero-meta-sep" aria-hidden="true">·</span>
         <span class="index-hero-meta-item">
@@ -830,17 +830,17 @@
         </span>
         <span class="index-hero-meta-sep" aria-hidden="true">·</span>
         <span class="index-hero-meta-item index-hero-meta-open">
-          <i class="fa-solid fa-clock"></i> פתוח עד 0:30
+          <i class="fa-solid fa-clock" data-element-type="icon" data-element-id="icon-1777311365169-fmkadvpbo" data-icon-type="fontawesome"></i> פתוח עד 0:30
         </span>
       </div>
 
       <!-- CTA Buttons -->
       <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary">
+        <a href="/contact" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1777311365166-e4exsjx7s" data-native-element="true">
           <i class="fa-brands fa-whatsapp"></i>
           הזמנה בוואטסאפ
         </a>
-        <a href="/contact" class="index-hero-btn-secondary">
+        <a href="/contact" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1777311365166-e5uxj0wxa" data-native-element="true">
           <i class="fa-solid fa-motorcycle"></i>
           איסוף ומשלוח
         </a>
@@ -853,9 +853,9 @@
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Neon lime glow line -->
-      <line x1="0" y1="30" x2="1200" y2="60" stroke="#F8B700" stroke-width="2" opacity="0.55"></line>
+      <line x1="0" y1="30" x2="1200" y2="60" stroke="#F8B700" stroke-width="2" opacity="0.55"/>
       <!-- Fill bottom to next section -->
-      <path d="M0,90 L0,32 L1200,62 L1200,90 Z" fill="var(--bg-light)"></path>
+      <path d="M0,90 L0,32 L1200,62 L1200,90 Z" fill="var(--bg-light)"/>
     </svg>
   </div>
 
@@ -884,7 +884,7 @@
         <div class="index-highlights-tile-body">
           <div class="index-highlights-tile-marker">
             <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="var(--accent)"></path>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="var(--accent)"/>
             </svg>
           </div>
           <div class="index-highlights-tile-content">
@@ -904,7 +904,7 @@
         <div class="index-highlights-tile-body">
           <div class="index-highlights-tile-marker">
             <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5S5.17 15.5 6 15.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="var(--secondary)"></path>
+              <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5S5.17 15.5 6 15.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="var(--secondary)"/>
             </svg>
           </div>
           <div class="index-highlights-tile-content">
@@ -928,7 +928,7 @@
         <div class="index-highlights-tile-body">
           <div class="index-highlights-tile-marker">
             <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="var(--accent)"></path>
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="var(--accent)"/>
             </svg>
           </div>
           <div class="index-highlights-tile-content">
@@ -958,12 +958,43 @@
   <!-- Bottom Arc Divider -->
   <div class="index-highlights-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,52 Q180,8 360,32 Q540,56 720,22 Q900,-8 1080,28 Q1260,60 1440,38 L1440,90 Z" fill="var(--bg-light)"></path>
-      <path d="M0,90 L0,62 Q180,28 360,46 Q540,64 720,36 Q900,10 1080,44 Q1260,72 1440,52 L1440,90 Z" fill="var(--bg-light)" opacity="0.7"></path>
+      <path d="M0,90 L0,52 Q180,8 360,32 Q540,56 720,22 Q900,-8 1080,28 Q1260,60 1440,38 L1440,90 Z" fill="var(--bg-light)"/>
+      <path d="M0,90 L0,62 Q180,28 360,46 Q540,64 720,36 Q900,10 1080,44 Q1260,72 1440,52 L1440,90 Z" fill="var(--bg-light)" opacity="0.7"/>
     </svg>
   </div>
 
 </section>
+
+<section id="layout-1777311390787" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0; direction: rtl;" data-component-id="imagecard-3col">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
+  <h2 style="font-size: 32px; font-weight: 700; color: #1F2937; margin-bottom: 40px; text-align: center; font-family: system-ui, -apple-system, sans-serif;">כותרת שלך כאן</h2>
+  <div class="image-card-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+    <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+      <img data-placeholder="layout-image-1777311390787-mqnemw18t" data-context="תיאור תמונה 1" data-zappy-editable-image="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23161616;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2316161620;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%201%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 1" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image">
+      <div style="padding: 24px;">
+        <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 1</h3>
+        <p style="font-size: 15px; line-height: 1.6; color: #1F2937; opacity: 0.8; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור כרטיס נמצא כאן</p>
+      </div>
+    </div>
+    <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+      <img data-placeholder="layout-image-1777311390787-bkvpdgvft" data-context="תיאור תמונה 2" data-zappy-editable-image="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23161616;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2316161620;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%202%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 2" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image">
+      <div style="padding: 24px;">
+        <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 2</h3>
+        <p style="font-size: 15px; line-height: 1.6; color: #1F2937; opacity: 0.8; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור כרטיס נמצא כאן</p>
+      </div>
+    </div>
+    <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+      <img data-placeholder="layout-image-1777311390787-5jcq604gl" data-context="תיאור תמונה 3" data-zappy-editable-image="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23161616;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2316161620;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%203%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 3" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image">
+      <div style="padding: 24px;">
+        <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: system-ui, -apple-system, sans-serif;">כותרת כרטיס 3</h3>
+        <p style="font-size: 15px; line-height: 1.6; color: #1F2937; opacity: 0.8; font-family: system-ui, -apple-system, sans-serif;">טקסט תיאור כרטיס נמצא כאן</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
 
 
 
@@ -1111,26 +1142,26 @@
   <!-- Bottom Divider: stepped neon-line into dark CTA -->
   <div class="index-reviews-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,64 L0,32 L0,28 L120,28 L120,20 L240,20 L240,28 L360,28 L360,16 L480,16 L480,28 L600,28 L600,12 L720,12 L720,28 L840,28 L840,18 L960,18 L960,28 L1080,28 L1080,22 L1200,22 L1200,64 Z" fill="#0a0b0f"></path>
-      <line x1="0" y1="28" x2="120" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="120" y1="28" x2="120" y2="20" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="120" y1="20" x2="240" y2="20" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="240" y1="20" x2="240" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="240" y1="28" x2="360" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="360" y1="28" x2="360" y2="16" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="360" y1="16" x2="480" y2="16" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="480" y1="16" x2="480" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="480" y1="28" x2="600" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="600" y1="28" x2="600" y2="12" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="600" y1="12" x2="720" y2="12" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="720" y1="12" x2="720" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="720" y1="28" x2="840" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="840" y1="28" x2="840" y2="18" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="840" y1="18" x2="960" y2="18" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="960" y1="18" x2="960" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="960" y1="28" x2="1080" y2="28" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="1080" y1="28" x2="1080" y2="22" stroke="var(--secondary)" stroke-width="2"></line>
-      <line x1="1080" y1="22" x2="1200" y2="22" stroke="var(--secondary)" stroke-width="2"></line>
+      <path d="M0,64 L0,32 L0,28 L120,28 L120,20 L240,20 L240,28 L360,28 L360,16 L480,16 L480,28 L600,28 L600,12 L720,12 L720,28 L840,28 L840,18 L960,18 L960,28 L1080,28 L1080,22 L1200,22 L1200,64 Z" fill="#0a0b0f"/>
+      <line x1="0" y1="28" x2="120" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="120" y1="28" x2="120" y2="20" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="120" y1="20" x2="240" y2="20" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="240" y1="20" x2="240" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="240" y1="28" x2="360" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="360" y1="28" x2="360" y2="16" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="360" y1="16" x2="480" y2="16" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="480" y1="16" x2="480" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="480" y1="28" x2="600" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="600" y1="28" x2="600" y2="12" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="600" y1="12" x2="720" y2="12" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="720" y1="12" x2="720" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="720" y1="28" x2="840" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="840" y1="28" x2="840" y2="18" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="840" y1="18" x2="960" y2="18" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="960" y1="18" x2="960" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="960" y1="28" x2="1080" y2="28" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="1080" y1="28" x2="1080" y2="22" stroke="var(--secondary)" stroke-width="2"/>
+      <line x1="1080" y1="22" x2="1200" y2="22" stroke="var(--secondary)" stroke-width="2"/>
     </svg>
   </div>
 
