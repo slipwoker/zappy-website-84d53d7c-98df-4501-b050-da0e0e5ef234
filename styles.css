@@ -11017,6 +11017,162 @@ body.accessibility-widget-visible ._access-menu {
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+.nav-cta-btn {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.nav-cta-btn:hover {
+  background: #b81c00 !important;
+}
+
+.footer-col .heading-accent {
+  background: var(--primary) !important;
+}
+
+.footer-social a:hover {
+  color: var(--primary) !important;
+}
+
+.footer-badge i {
+  color: var(--primary) !important;
+}
+
+.index-hero-section .index-hero-label {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-hero-section .index-hero-highlight {
+  color: var(--primary) !important;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-highlights-section .index-highlights-label {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-tile-accent {
+  background: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-tile-stat {
+  color: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-option-badge {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-option-badge--alt {
+  background: transparent !important;
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-hours-dot {
+  background: var(--primary) !important;
+}
+
+.index-highlights-section .index-highlights-price-tag {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-highlights-section .index-highlights-contact-link {
+  color: var(--primary) !important;
+}
+
+.index-reviews-section .index-reviews-accent-line {
+  background: var(--primary) !important;
+}
+
+.index-reviews-section .index-review-card {
+  border-top: 3px solid var(--primary) !important;
+}
+
+.index-reviews-section .index-review-platform {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.index-reviews-section .index-rating-cta {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-reviews-section .index-rating-cta:hover {
+  background: #b81c00 !important;
+}
+
+.index-reviews-section .index-bar-fill {
+  background: var(--primary) !important;
+}
+
+.index-reviews-section .index-rating-badge i {
+  color: var(--primary) !important;
+}
+
+.index-reviews-section .index-review-stars i {
+  color: var(--primary) !important;
+}
+
+.index-reviews-section .index-rating-stars-large i {
+  color: var(--primary) !important;
+}
+
+.index-cta-section .index-cta-accent {
+  color: var(--primary) !important;
+}
+
+.index-cta-section .index-cta-underline {
+  background: var(--primary) !important;
+}
+
+.index-cta-section .index-cta-btn-primary {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-cta-section .index-cta-btn-primary:hover {
+  background: #b81c00 !important;
+}
+
+.index-cta-section .index-cta-btn-secondary {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.index-cta-section .index-cta-btn-secondary:hover {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.index-cta-section .index-cta-meta-item i {
+  color: var(--primary) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

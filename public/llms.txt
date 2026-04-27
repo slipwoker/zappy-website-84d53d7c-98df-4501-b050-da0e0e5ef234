@@ -1,6 +1,4 @@
-# פיצה צ'יזי לוק — Generative Engine Optimization Map
-
-> Cheesy Look Pizza is a highly-rated (4.8 stars) local pizzeria located in Gan Yavne, Israel, known for its affordable prices (1–50 NIS per person). The restaurant offers both self-pickup and delivery options, operates late (until 0:30), and maintains an active WhatsApp presence for orders. The brand has a casual, neighborhood-friendly vibe with a focus on accessibility and convenience.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,15 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About פיצה צ'יזי לוק
-Cheesy Look Pizza is a highly-rated (4.8 stars) local pizzeria located in Gan Yavne, Israel, known for its affordable prices (1–50 NIS per person). The restaurant offers both self-pickup and delivery options, operates late (until 0:30), and maintains an active WhatsApp presence for orders. The brand has a casual, neighborhood-friendly vibe with a focus on accessibility and convenience.
-
-## Target Audience
-תושבי גן יבנה והסביבה
-
-## Industry
-מסעדנות / מזון מהיר
-
+## About Business
 ---
 
 # Additional Resources
